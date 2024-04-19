@@ -139,16 +139,26 @@ main a{
 li{
     font-weight: bold;
 }
+
 div.video{
     background-color: rgb(56, 108, 108);
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;
     padding: 20px;
     position: relative;
+    width: 96%;
+    height: 360px;
+    margin: 0 auto;*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
 }
 
 div.video > iframe{
     padding-right: 0px;
-}
+    width: 550px;
+    height: 350px;
 
 footer{
     text-align: center;
